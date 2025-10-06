@@ -20,7 +20,6 @@ The data generated included a variety of tables and .rds files that was then inp
 
 ## Content summary 
 - TCGA-OV_taxane-free-intervals_analysis.R code used to download TCGA-OV data both bulk RNAseq and metadata of interest as well as differential gene expression analysis and normalization of transcriptomic information
-- TCGA-OV_rawData.rds SummarizedExperiment object that contains both transcriptomic and metadata from the TCGA-OV samples that contained bulk RNAseq information
 - allTreatments_219patients_noNA.csv table containing information for all the treatments received by each patients as well as start and end of treatment after deleting rows where one of the previous variables was not available. The table contains a row per treatment received per patient so each patient might contain multiple rows
 - 90patients_firstTreatISTax_numOFtax_tfi.csv table containing 1 per patient with the following information: arcode, days_to_treatment_start, days_to_treatment_end, therapeutic_agents, taxane_first, taxane_second, number_taxanes, taxane_type, tfi
 - TCGA-OVCA_count_matrix.zip table with the bulkRNAseq count matrix for all the patients in the TCGA-OV dataset with gene symbols
